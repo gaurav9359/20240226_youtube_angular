@@ -1,0 +1,25 @@
+
+@for (item of videoData; track $index) {
+<span class="video">
+        <span class="thumbnail">
+            <img src={{videoData[$index].thumbnailUrl}} alt="Falling Sand">
+        </span>
+        <span class="video_content">
+            <span class="creator-pfp">
+                <img src={{videoData[$index].thumbnailUrl}}>
+            </span>
+            <span class="video-details">
+                <span class="video-title">
+                    {{videoData[$index].videoTitle}}
+                </span>
+                <span class="creator-name">
+                    {{videoData[$index].creatorName}}
+                </span>
+                <span class="other-metadata">
+                    <span class="views">{{videoData[$index].views}}</span>
+                    <span class="time">• {{videoData[$index].uploadDate}}</span>
+                </span>
+            </span>
+        </span>
+    </span>
+}

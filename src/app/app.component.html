@@ -1,9 +1,12 @@
 <div>
-  <app-navbar></app-navbar>
+  <app-navbar [profile]="profile"></app-navbar>
   <div class="middle">
     <app-left-side-main [leftItems]="leftItems"></app-left-side-main>
     <div class="right_section_body">
       <app-recommended-main [recommended]="recommended"></app-recommended-main>
+      
+      
+      <router-outlet />
     </div>
   </div>
 </div>

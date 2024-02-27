@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
+import { MyvideoDetails } from '../../interfaces';
 
 @Component({
   selector: 'app-middle-main',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './middle-main.component.css'
 })
 export class MiddleMainComponent {
-
+  @Input() videoData: Array<MyvideoDetails> = []
 }

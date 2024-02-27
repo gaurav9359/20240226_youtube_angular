@@ -1,0 +1,10 @@
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-right{
+    position: relative;
+    top: 71px;
+    background: #0f0f0f;
+    height: 100vh;
+}

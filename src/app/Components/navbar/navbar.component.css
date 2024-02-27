@@ -9,9 +9,11 @@
 /* design navbar div */
 .Navbar{
     top: 0px;
+    position: relative;
+    z-index: 8;
     position: sticky;
     background-color: #0f0f0f;
-    box-sizing: border-box;
+    height: 85px;
     width: 100%;
     padding: 10px 16px;
 }
@@ -354,6 +356,17 @@ input::-webkit-input-placeholder{
 }
 
 
+.profileicon:hover{
+    .settings{
+        height: 100px;
+        background-color: white;
+    }
+}
 
+
+.inner_child{
+    height: 100%;
+    width: 100%;
+}
 
 

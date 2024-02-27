@@ -4,7 +4,7 @@
     padding: 0px;
     font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.middle
 /* Navbar */
 /* design navbar div */
 .Navbar{
@@ -14,6 +14,11 @@
     box-sizing: border-box;
     width: 100%;
     padding: 10px 16px;
+    z-index: 5;
+}
+
+.navbar{
+    z-index: 5;
 }
 
 /* design hamburger of navbar's left */
@@ -353,7 +358,9 @@ input::-webkit-input-placeholder{
     background-color: #393939;
 }
 
-
+.middle{
+    background-color: #0f0f0f;
+}
 
 
 

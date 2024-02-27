@@ -232,6 +232,7 @@
     padding: 0px 28px;
     position: fixed;
     display: flex;
+    color: white;
     background-color: #0f0f0f;
 }
 .upper_buttons{

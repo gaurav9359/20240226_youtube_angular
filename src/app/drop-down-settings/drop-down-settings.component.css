@@ -1,0 +1,17 @@
+.dropdownmenu{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.user-btn img{
+    height: 100%;
+    width: 100%;
+}
+
+.dropdownmenu button{
+    height: 81%;
+    width: 60%;
+    position: relative;
+    top: 3px;
+}
+

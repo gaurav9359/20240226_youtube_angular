@@ -1,5 +1,8 @@
 # 20240226YoutubeAngular
 
+
+## CSS WILL BE MOSTLY COMMON FOR ALL
+### REASON:- FIRST THIS APP WAS BUILT USING HTML AND CSS SO IN ORDER TO COMPLETE PROJECT ON TIME I HAVE USED SAME CSS IN ALL COMPONENTS
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
 ## Development server

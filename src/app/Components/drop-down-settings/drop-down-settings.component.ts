@@ -10,5 +10,4 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './drop-down-settings.component.css'
 })
 export class DropDownSettingsComponent {
-  @Input() profile:Array<String>=[]
 }

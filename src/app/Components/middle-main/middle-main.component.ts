@@ -9,5 +9,6 @@ import { MyvideoDetails } from '../../interfaces';
   styleUrl: './middle-main.component.css'
 })
 export class MiddleMainComponent {
+  // input the array of video list from parent and route
   @Input() videoData: Array<MyvideoDetails> = []
 }

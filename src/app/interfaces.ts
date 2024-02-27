@@ -1,3 +1,4 @@
+// interface for video data
 export interface MyvideoDetails {
     thumbnailUrl: string,
         videoTitle: string,

@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 
-
 @Component({
   selector: 'app-recommended-main',
   standalone: true,
@@ -9,8 +8,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './recommended-main.component.css'
 })
 export class RecommendedMainComponent {
+  // take input of all the recommended items from parent
   @Input() recommended: Array<String> = []
-  constructor(){
-    console.log(this.recommended)
-  }
 }

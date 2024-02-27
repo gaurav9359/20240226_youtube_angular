@@ -16,12 +16,13 @@ import { MyvideoDetails } from './interfaces';
 })
 export class AppComponent {
 
+  // constructor for the class
   constructor(private dataService: DataService) { }
 
-  
-
+  // Video data will contain all the videos
   videoData:Array<MyvideoDetails> = []
 
+  // list of videos
   ngOnInit(): void {
     this.videoData = [
       {
@@ -126,10 +127,13 @@ export class AppComponent {
     this.dataService.setData(this.videoData)
   }
 
+  // buttons name present on left section
   leftItems: Array<String>=["Home","Shorts", "Subscriptions", "You"];
 
+  // profile information
   profile: Array<String>= [`https://yt3.ggpht.com/ytc/AIf8zZSGHcHDceDumNFoKq-txbR5dJiclKQFhe3rW_qBJajW3Iq3faioCFrfzuIxvMbd=s88-c-k-c0x00ffffff-no-rj`]
 
+  // recommendation names
   recommended: Array<String> = [
     'News',
     'Music',

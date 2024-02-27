@@ -1,5 +1,10 @@
+<!-- Section which appear at the top of videos provide
+different section of suggestion -->
+
 <div class="top_right">
     <div class="all upper_buttons">All</div>
+
+    <!-- Iterate through items in suggestion -->
     @for (item of recommended; track $index) {
         <div class="upper_buttons">{{item}}</div>
     }

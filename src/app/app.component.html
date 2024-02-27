@@ -1,11 +1,13 @@
 <div>
   <app-navbar class="navbar" [profile]="profile"></app-navbar>
   <div class="middle">
+    <!-- left side of the body which contains buttons -->
     <app-left-side-main [leftItems]="leftItems"></app-left-side-main>
     <div class="right_section_body">
+      <!-- Recommendation section -->
       <app-recommended-main [recommended]="recommended"></app-recommended-main>
       
-      
+      <!-- set up the route for home and subscribed -->
       <router-outlet />
     </div>
   </div>

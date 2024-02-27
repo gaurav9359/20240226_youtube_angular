@@ -1,20 +1,34 @@
 
+<!-- component to render the single video and its info -->
+
 @for (item of videoData; track $index) {
 <span class="video">
+
+        <!-- thumbnail of video -->
         <span class="thumbnail">
             <img src={{videoData[$index].thumbnailUrl}} alt="Falling Sand">
         </span>
+
         <span class="video_content">
+            <!-- thumbnail of chanel -->
             <span class="creator-pfp">
                 <img src={{videoData[$index].thumbnailUrl}}>
             </span>
+
+            <!-- details of video -->
             <span class="video-details">
+
+                <!-- video title -->
                 <span class="video-title">
                     {{videoData[$index].videoTitle}}
                 </span>
+
+                <!-- create name -->
                 <span class="creator-name">
                     {{videoData[$index].creatorName}}
                 </span>
+
+                <!-- title and views -->
                 <span class="other-metadata">
                     <span class="views">{{videoData[$index].views}}</span>
                     <span class="time">• {{videoData[$index].uploadDate}}</span>

@@ -8,8 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './left-side-main.component.css'
 })
 export class LeftSideMainComponent {
+
+  // input the sections present from backend
   @Input() leftItems:Array<String>=[];
-  constructor(){
-    console.log(this.leftItems)
-  }
 }

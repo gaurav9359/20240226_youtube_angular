@@ -1,8 +1,13 @@
+<!-- Secion to implement settings icon at navbar -->
 <div class="dropdownmenu">
+
+    <!-- Profile Icon -->
     <button class="user-btn" mat-icon-button [matMenuTriggerFor]="menu">
         <img src="https://yt3.ggpht.com/ytc/AIf8zZSGHcHDceDumNFoKq-txbR5dJiclKQFhe3rW_qBJajW3Iq3faioCFrfzuIxvMbd=s88-c-k-c0x00ffffff-no-rj" alt="No profile">
     </button>
     
+    <!-- all the options that opens after clicking on profile -->
+
     <mat-menu #menu="matMenu">
         <button mat-menu-item>
             <!-- <span class="iconify" data-icon="carbon:user-avatar-filled" data-inline="false"></span> -->
@@ -19,6 +24,7 @@
             Switch account
         </button>
         <button mat-menu-item>
+
             <!-- <span class="iconify" data-icon="carbon:user-avatar-filled" data-inline="false"></span> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <path fill="currentColor"
@@ -27,6 +33,8 @@
             Sign Out
         </button>
         <hr>
+
+        <!-- all other buttons along with name -->
         <button mat-menu-item> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                     d="M41.754 34.25L24 44.5L6.247 34.25v-20.5L24 3.5l17.754 10.25Z" />
